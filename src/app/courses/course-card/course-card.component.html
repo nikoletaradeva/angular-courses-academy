@@ -1,0 +1,51 @@
+<div class="single-course">
+    <span *ngIf="canAssign"
+    class="assign-btn"
+    title="Assign"
+    (click)="onAssignClick()"
+    ><img src="https://www.flaticon.com/premium-icon/icons/svg/1610/1610405.svg" width="20px" height="20px"></span>
+
+    <span 
+    class="edit-btn"
+    title="Edit"
+    (click)="onEditClick()"
+    *ngIf="isAdmin"
+    ><img src="https://www.flaticon.com/premium-icon/icons/svg/1022/1022215.svg" width="20px" height="20px"></span>
+
+  <span 
+  class="rating-btn"
+  title="Rating"
+  (click)="onRatingClick()"
+  ><img src="https://image.flaticon.com/icons/svg/616/616489.svg" alt="rating" width="20px" height="20px"></span>
+
+  <span  
+  class="delete-btn"
+  title="Delete"
+  (click)="onDeleteClick()"
+  *ngIf="isAdmin"
+  ><img src="https://www.flaticon.com/premium-icon/icons/svg/1812/1812528.svg" width="20px" height="20px"></span>
+  <div class="row">
+    <div class="col-12">
+      <h3>{{ course.title }}</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <p>{{ course.description }}</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <span>Rating :</span>
+      <span>{{ course.rating }}</span>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-12">
+        <span>Assignee :</span>
+        <div *ngFor="let assignee of course.assignees">
+          {{ assignee.name }}
+        </div>
+      </div>
+    </div>
+</div>

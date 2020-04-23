@@ -1,0 +1,39 @@
+.user-card {
+    border: 3px solid black;
+    text-align: center;
+    font-size: 14px;
+    color:black;
+    background-color: #00bcd4;
+    opacity: 0.8;
+    font-family: "Times New Roman", Times, monospace;
+    border-radius: 15px 50px ;
+}
+
+.user-img {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 10px;
+    right: 35px;
+    cursor: pointer;
+}
+.edit-btn{
+    position: absolute;
+    top:10px;
+    right: 60px;
+    cursor: pointer;
+}
+.blocked-btn{
+    position: absolute;
+    top: 10px;
+    right: 90px;
+    cursor: pointer;
+}

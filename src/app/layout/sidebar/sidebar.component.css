@@ -1,0 +1,21 @@
+.menu-wrapper {
+    background-color:#00bcd4;
+    color:white;
+    height: 150vh;
+    width: 20vh;
+}
+ul.menu-items {
+    padding: 10px;
+    list-style: none;
+}
+
+li.menu-item {
+    font-size: 1.250rem;
+    cursor: pointer;
+    color: white;
+}
+li.menu-item a{
+    
+    color: white;
+    font-size: 20px;  
+}

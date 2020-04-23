@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nikoleta Radeva",
+      "email": "nikolnikoleta98@gmail.com",
+      "password": "nikir",
+      "picture": "https://picsum.photos/200/300",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Plamen Bobchev",
+      "email": "plamenb@gmail.com",
+      "password": "plamenb",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 3,
+      "name": "Stoyan Petrov",
+      "email": "stoynpetrov@gmail.com",
+      "password": "stoynp",
+      "role": "user",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 4,
+      "name": "Todor Marinov",
+      "email": "todormarinov@gmail.com",
+      "password": "todorm",
+      "role": "user",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 5,
+      "name": "Tanq Ilieva",
+      "email": "tanqilieva55@gmail.com",
+      "password": "tanqi",
+      "role": "user",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 6,
+      "name": "Mariq Ivanova",
+      "email": "mariqivanova69@gmail.com",
+      "password": "mariqi",
+      "role": "user",
+      "picture": "https://picsum.photos/200/300"
+    }
+  ],
+  "courses": [
+    {
+      "id": 11,
+      "title": "JS Apps",
+      "description": "In the course you will learn what HTTP requests and how to use them. You will get acquainted with REST Services, what databases are and how to work with them, what is an asynchronous code, what Templating and Routing are. You will understand the architecture of an application and how to properly structure your applications.\r\n",
+      "rating": "4",
+      "assignees": [
+        {
+          "name": "Niki",
+          "id": 7
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Programming Basic with Java",
+      "description": "The Programming Basics course provides the initial programming skills required for all technological specialties. This includes writing basic code skills, working with development environment (IDE), using variables and data, operators and expressions, working with the console , using conditional constructions (if, if-else) and cycles (for, while, do-while).\r\n",
+      "rating": "",
+      "assignees": [
+        {
+          "name": "Plamen Bobchev",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "QA",
+      "description": "The QA Fundamentals course will introduce you to the basic concepts of software quality assurance (QA).In addition to manual testing and defect depiction, testing and automation will eventually be affected. You will be introduced to one of the most used in the QA industry automated testing tools - Selenium Web Driver.\r\n",
+      "rating": "",
+      "assignees": []
+    },
+    {
+      "id": 14,
+      "title": "HTML & CSS",
+      "description": "The aim of the HTML & CSS course is to provide basic knowledge of web technologies and, in particular, familiarity with HTML5 and CSS3. We gain initial knowledge in web development, web browsers, HTML / CSS / DOM development tools and develop practical skills to use the HTML and  CSS  language. \r\n",
+      "rating": "",
+      "assignees": []
+    },
+    {
+      "id": 15,
+      "title": "C# Web Basics",
+      "description": "The course sets out the basics of important principles laid out in ASP.NET Core. We'll introduce you to basic web development principles, such as HTTP protocol, cookies, and sessions. We will write our own server and our own MVC Framework, supporting all the basic functionalities needed for a modern web application.\r\n",
+      "rating": "",
+      "assignees": []
+    },
+    {
+      "id": 16,
+      "title": "MySQL",
+      "description": "Databases are the standard way to use dynamic information in modern applications, making them an integral part of almost every application. The database basics course will introduce you to one of the most widely used database management systems (DBMS) in the development of modern applications - MySQL.\r\n",
+      "rating": "",
+      "assignees": []
+    }
+  ]
+}

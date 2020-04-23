@@ -1,0 +1,55 @@
+<div class="register-holder">
+  <div class="container">
+    <div class="form-holder">
+      <h3>Register</h3>
+        <form [formGroup]="registerForm" (ngSubmit)="onRegister()">
+          <div class="row">
+            <div class="col-12">
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" formControlName="name">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-12">
+                <div class="form-group">
+                  <label>Password</label>
+                  <input type="password" class="form-control" formControlName="password">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="form-group">
+                  <label>Email</label>
+                  <input type="text" class="form-control" formControlName="email">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                  <div class="form-group">
+                    <label>Role</label>
+                    <input type="text" class="form-control" formControlName="role">
+                  </div>
+                </div>
+              </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="form-group">
+                  <label>Picture</label>
+                  <input type="text" class="form-control" formControlName="picture">
+                </div>
+              </div>
+            </div>
+           
+            <div class="row">
+              <div class="col-12">
+                <button type="submit" class="btn">Register</button>
+              </div>
+            </div>
+        </form>
+    </div>  
+  </div>
+</div>

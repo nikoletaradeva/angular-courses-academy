@@ -1,0 +1,17 @@
+.navbar {
+    background-color:#00bcd4;
+    height: 9vh;
+    font-size: 20px;
+}
+li.nav-item a{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+button.btn {
+    color: white;
+    background-color: #00bcd4;
+    border-color: white;
+
+}

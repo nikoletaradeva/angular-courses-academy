@@ -1,0 +1,26 @@
+.login-holder{
+    height: 100vh;
+    background-image: url("E:\Уни\AProject\course-work\src\Computer-Courses-in-Pakistan.jpg");
+    background-size: 100%;
+    background-image: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.form-holder{
+    width: 400px;
+    border: 4px solid #00bcd4;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    
+}
+button.btn{
+    color: white;
+    background-color:#00bcd4;
+    font-size: 20px;
+}
+

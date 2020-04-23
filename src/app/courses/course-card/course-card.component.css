@@ -1,0 +1,39 @@
+.single-course {
+    border: 3px solid #00bcd4 ;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    background-color: black;
+    opacity: 0.8;
+    font-family: "Times New Roman", Times, monospace;
+    border-radius: 15px  50px;
+}
+.assign-btn {
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 80px;
+}
+
+
+.rating-btn {
+    position: absolute;
+    right: 60px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    position: absolute;
+    right: 35px;
+    top: 10px;
+    cursor: pointer;
+}
